@@ -50,18 +50,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/Frontend\/Styles\/SASS\/Partials\/_delta.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_delta.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_delta.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/Frontend\/Styles\/SASS\/Support\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -71,6 +59,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Support\/_variables.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/Frontend\/Styles\/SASS\/Partials\/_delta.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_delta.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_delta.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -95,6 +95,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/Frontend\/index.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/index.kit",
+      "outputAbbreviatedPath" : "\/Frontend\/index.html",
+      "fileType" : 65536
+    },
     "\/Frontend\/Styles\/SASS\/Partials\/_gamma.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -106,15 +115,6 @@
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_gamma.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/Frontend\/index.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/index.kit",
-      "outputAbbreviatedPath" : "\/Frontend\/index.html",
-      "fileType" : 65536
     },
     "\/Frontend\/Templates\/start.kit" : {
       "ignoreWasSetByUser" : 0,
