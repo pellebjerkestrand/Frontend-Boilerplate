@@ -83,26 +83,25 @@
       "outputAbbreviatedPath" : "\/Frontend\/Layouts\/Partials\/_html-begin.html",
       "fileType" : 65536
     },
-    "\/Frontend\/Styles\/SASS\/main.scss" : {
+    "\/Frontend\/Layouts\/start.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/main.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/Frontend\/Layouts\/start.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/Frontend\/index.kit" : {
+    "\/Frontend\/Scripts\/app.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/index.kit",
-      "outputAbbreviatedPath" : "\/Frontend\/index.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/Frontend\/Scripts\/app.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/app.min.js",
+      "fileType" : 64
     },
     "\/Frontend\/Styles\/SASS\/Partials\/_gamma.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -115,6 +114,15 @@
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_gamma.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/Frontend\/index.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/index.kit",
+      "outputAbbreviatedPath" : "\/Frontend\/index.html",
+      "fileType" : 65536
     },
     "\/Frontend\/Templates\/start.kit" : {
       "ignoreWasSetByUser" : 0,
@@ -133,7 +141,18 @@
       "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Modules\/initialization.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Modules\/initialization-ck.js",
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Modules\/initialization.min.js",
+      "fileType" : 64
+    },
+    "\/Frontend\/Scripts\/app.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Scripts\/app.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/app.min.min.js",
       "fileType" : 64
     },
     "\/Frontend\/Scripts\/Polyfills\/prefixfree.min.js" : {
@@ -144,7 +163,7 @@
       "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/prefixfree.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/prefixfree.min-ck.js",
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/prefixfree.min.min.js",
       "fileType" : 64
     },
     "\/Frontend\/Scripts\/Polyfills\/addEventListener.js" : {
@@ -155,7 +174,7 @@
       "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/addEventListener.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/addEventListener-ck.js",
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/addEventListener.min.js",
       "fileType" : 64
     },
     "\/Frontend\/Styles\/SASS\/Partials\/_alpha.scss" : {
@@ -191,17 +210,6 @@
       "outputAbbreviatedPath" : "\/Frontend\/Layouts\/Partials\/_html-end.html",
       "fileType" : 65536
     },
-    "\/Frontend\/Scripts\/Min\/site.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Min\/site.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Min\/site.min-ck.js",
-      "fileType" : 64
-    },
     "\/Frontend\/Styles\/SASS\/Partials\/_eta.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -222,7 +230,7 @@
       "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Lib\/jquery-2.0.3.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Lib\/jquery-2.0.3.min-ck.js",
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Lib\/jquery-2.0.3.min.min.js",
       "fileType" : 64
     },
     "\/Frontend\/Styles\/SASS\/Partials\/_font.scss" : {
@@ -237,6 +245,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/Frontend\/Styles\/SASS\/app.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/app.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/app.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/Frontend\/Styles\/SASS\/Lib\/_normalize2.nocomments.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -248,17 +268,6 @@
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Lib\/_normalize2.nocomments.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/Frontend\/Scripts\/site.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/Frontend\/Scripts\/site.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Min\/site.min.js",
-      "fileType" : 64
     }
   },
   "manualImportLinks" : [
@@ -284,7 +293,7 @@
     "lessStrictUnits" : 0,
     "lessStrictMath" : 0,
     "coffeeMinifyOutput" : 1,
-    "javascriptOutputSuffix" : "-ck",
+    "javascriptOutputSuffix" : ".min",
     "jadeOutputStyle" : 0,
     "coffeeAutoOutputPathStyle" : 0,
     "autoSyncProjectSettingsFile" : 1,
