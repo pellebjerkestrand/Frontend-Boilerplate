@@ -1,0 +1,41 @@
+@import '../Support/variables';
+@import '../Support/mixins';
+
+@include on-mq-support($alpha);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-width: $alpha_min;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font_title;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  img {
+    display: block;
+    width: 100%;
+  }
+}

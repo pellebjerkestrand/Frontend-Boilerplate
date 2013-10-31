@@ -1,0 +1,23 @@
+@import 'variables';
+
+@mixin on-mq-support($view, $font: $font_default){
+  html {
+    font-family: $view;
+  }
+
+  body {
+    font-family: $font;
+  }
+}
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
