@@ -2,18 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8376",
   "files" : {
-    "\/Frontend\/Styles\/SASS\/Partials\/_epsilon.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_epsilon.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_epsilon.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/Frontend\/Styles\/SASS\/Support\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -23,6 +11,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Support\/_mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/Frontend\/Styles\/SASS\/Partials\/_epsilon.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_epsilon.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_epsilon.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -74,6 +74,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/Frontend\/Layouts\/start.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Layouts\/start.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/Frontend\/Templates\/Partials\/_html-begin.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -81,15 +90,6 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/Frontend\/Templates\/Partials\/_html-begin.kit",
       "outputAbbreviatedPath" : "\/Frontend\/Layouts\/Partials\/_html-begin.html",
-      "fileType" : 65536
-    },
-    "\/Frontend\/Templates\/start.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Templates\/start.kit",
-      "outputAbbreviatedPath" : "\/Frontend\/Layouts\/start.html",
       "fileType" : 65536
     },
     "\/Frontend\/Scripts\/app.js" : {
@@ -122,6 +122,15 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/Frontend\/index.kit",
       "outputAbbreviatedPath" : "\/Frontend\/index.html",
+      "fileType" : 65536
+    },
+    "\/Frontend\/Templates\/start.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Templates\/start.kit",
+      "outputAbbreviatedPath" : "\/Frontend\/Layouts\/start.html",
       "fileType" : 65536
     },
     "\/Frontend\/Scripts\/Modules\/initialization.js" : {
@@ -168,18 +177,6 @@
       "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/addEventListener.min.js",
       "fileType" : 64
     },
-    "\/Frontend\/Styles\/SASS\/Partials\/_alpha.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_alpha.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_alpha.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/Frontend\/Styles\/SASS\/Partials\/_zeta.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -189,6 +186,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_zeta.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/Frontend\/Styles\/SASS\/Partials\/_alpha.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_alpha.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_alpha.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -253,7 +262,7 @@
       "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/app.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/app.css",
+      "outputAbbreviatedPath" : "\/Frontend\/Styles\/CSS\/app.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -268,6 +277,17 @@
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Lib\/_normalize2.nocomments.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/Frontend\/Scripts\/Modules\/behaviors.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Modules\/behaviors.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Modules\/behaviors.min.js",
+      "fileType" : 64
     }
   },
   "manualImportLinks" : [

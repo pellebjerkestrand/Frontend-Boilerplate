@@ -1,3 +1,5 @@
+/* Initialization meta module. Pelle Bjerkestrand. WTFPL. */
+/* Uses addEventListener */
 (function(window, document){
     'use strict';
 
