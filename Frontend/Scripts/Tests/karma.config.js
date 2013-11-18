@@ -4,7 +4,9 @@ module.exports = function(config){
         frameworks: ['mocha', 'chai'],
         files: [
             'modules/behaviors.js',
-            'tests/behaviors.js'
+            'tests/behaviors.js',
+            'modules/indicate.javascript.js',
+            'tests/indicate.javascript.js'
         ],
         colors: true,
         logLevel: config.LOG_INFO,

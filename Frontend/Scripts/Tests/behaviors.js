@@ -3,7 +3,7 @@ var assert = chai.assert;
 describe('The behaviors module', function(){
     var elementId = 'el';
 
-    before(function(){
+    beforeEach(function(){
         var el = document.createElement('div');
         el.id = elementId;
         document.body.appendChild(el);
@@ -51,7 +51,7 @@ describe('The behaviors module', function(){
         assert.notOk(el.classList.contains('shown'));
     });
 
-    after(function(){
+    afterEach(function(){
         var el = document.getElementById(elementId);
         el.parentNode.removeChild(el);
     });

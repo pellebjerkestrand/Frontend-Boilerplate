@@ -21,3 +21,32 @@
     clear: both;
   }
 }
+
+@mixin breakpoint($point){
+  $start: false !default;
+
+  @if ($point == $beta){
+    $start: $beta_start;
+  }
+  @else if ($point == $gamma){
+    $start: $gamma_start;
+  }
+  @else if ($point == $delta){
+    $start: $delta_start;
+  }
+  @else if ($point == $epsilon){
+    $start: $epsilon_start;
+  }
+  @else if ($point == $zeta){
+    $start: $zeta_start;
+  }
+  @else if ($point == $eta){
+    $start: $eta_start;
+  }
+
+  @if $start {
+    @media (min-width: $start){
+      @content;
+    }
+  }
+}
