@@ -2,18 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/Frontend\/Styles\/SASS\/Partials\/_epsilon.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_epsilon.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_epsilon.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/Frontend\/Styles\/SASS\/Support\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -35,18 +23,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Lib\/_normalize2.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/Frontend\/Styles\/SASS\/Partials\/_beta.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_beta.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_beta.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -73,65 +49,25 @@
       "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Modules\/indicate.javascript.min.js",
       "fileType" : 64
     },
-    "\/Frontend\/Layouts\/start.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Layouts\/start.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/Frontend\/Templates\/start.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Templates\/start.kit",
-      "outputAbbreviatedPath" : "\/Frontend\/Layouts\/start.html",
-      "fileType" : 65536
-    },
-    "\/Frontend\/index.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/index.kit",
-      "outputAbbreviatedPath" : "\/Frontend\/index.html",
-      "fileType" : 65536
-    },
     "\/Frontend\/Templates\/Partials\/_html-begin.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/Frontend\/Templates\/Partials\/_html-begin.kit",
-      "outputAbbreviatedPath" : "\/Frontend\/Layouts\/Partials\/_html-begin.html",
+      "outputAbbreviatedPath" : "\/Frontend\/Demo\/Partials\/_html-begin.html",
       "fileType" : 65536
     },
-    "\/Frontend\/Styles\/SASS\/Partials\/_delta.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/Frontend\/Scripts\/Tests\/karma.config.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_delta.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_delta.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/Frontend\/Styles\/SASS\/Partials\/_gamma.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_gamma.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_gamma.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Tests\/karma.config.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Tests\/karma.config.min.js",
+      "fileType" : 64
     },
     "\/Frontend\/Scripts\/app.js" : {
       "ignoreWasSetByUser" : 0,
@@ -144,16 +80,44 @@
       "outputAbbreviatedPath" : "\/Frontend\/Scripts\/app.min.js",
       "fileType" : 64
     },
-    "\/Frontend\/Scripts\/Tests\/karma.config.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/Frontend\/index.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/index.kit",
+      "outputAbbreviatedPath" : "\/Frontend\/index.html",
+      "fileType" : 65536
+    },
+    "\/Frontend\/Templates\/start.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Templates\/start.kit",
+      "outputAbbreviatedPath" : "\/Frontend\/Demo\/start.html",
+      "fileType" : 65536
+    },
+    "\/Frontend\/Styles\/SASS\/Modules\/_global.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Tests\/karma.config.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Tests\/karma.config.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Modules\/_global.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Modules\/_global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/Frontend\/Demo\/start.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Demo\/start.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/Frontend\/Scripts\/Modules\/initialization.js" : {
       "ignoreWasSetByUser" : 0,
@@ -179,7 +143,7 @@
     },
     "\/Frontend\/Scripts\/Polyfills\/addEventListener.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/Frontend\/Scripts\/Polyfills\/addEventListener.js",
@@ -199,18 +163,6 @@
       "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Tests\/behaviors.min.js",
       "fileType" : 64
     },
-    "\/Frontend\/Styles\/SASS\/Partials\/_zeta.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_zeta.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_zeta.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/Frontend\/Scripts\/Tests\/indicate.javascript.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -222,38 +174,14 @@
       "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Tests\/indicate.javascript.min.js",
       "fileType" : 64
     },
-    "\/Frontend\/Styles\/SASS\/Partials\/_alpha.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_alpha.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_alpha.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/Frontend\/Templates\/Partials\/_html-end.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/Frontend\/Templates\/Partials\/_html-end.kit",
-      "outputAbbreviatedPath" : "\/Frontend\/Layouts\/Partials\/_html-end.html",
+      "outputAbbreviatedPath" : "\/Frontend\/Demo\/Partials\/_html-end.html",
       "fileType" : 65536
-    },
-    "\/Frontend\/Styles\/SASS\/Partials\/_eta.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_eta.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_eta.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/Frontend\/Scripts\/Lib\/jquery-2.0.3.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -265,18 +193,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/Frontend\/Scripts\/Lib\/jquery-2.0.3.min.min.js",
       "fileType" : 64
-    },
-    "\/Frontend\/Styles\/SASS\/Partials\/_font.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Partials\/_font.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Partials\/_font.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/Frontend\/Styles\/CSS\/app.css" : {
       "ignoreWasSetByUser" : 0,
@@ -296,6 +212,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/app.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/Frontend\/Styles\/SASS\/Modules\/_context.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Frontend\/Styles\/SASS\/Modules\/_context.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/Frontend\/Styles\/css\/Modules\/_context.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -330,9 +258,9 @@
     "hamlNoEscapeInAttributes" : 0,
     "kitAutoOutputPathStyle" : 3,
     "lessOutputStyle" : 0,
-    "hamlAutoOutputPathReplace2" : "",
+    "hamlAutoOutputPathReplace2" : "Demo",
     "draggedImportConcatenationStyle" : 1,
-    "jadeAutoOutputPathStyle" : 0,
+    "jadeAutoOutputPathStyle" : 3,
     "hamlEscapeHTMLCharacters" : 0,
     "javascriptAutoOutputPathStyle" : 0,
     "hamlOutputFormat" : 2,
@@ -351,28 +279,28 @@
     "coffeeAutoOutputPathStyle" : 0,
     "autoSyncProjectSettingsFile" : 1,
     "lessAutoOutputPathReplace1" : "less",
-    "jadeAutoOutputPathReplace1" : "",
+    "jadeAutoOutputPathReplace1" : "Templates",
     "lessAutoOutputPathRelativePath" : "..\/css",
     "hamlAutoOutputPathRelativePath" : "",
     "jsCheckerReservedNamesString" : "",
     "javascriptOutputStyle" : 1,
     "stylusDebugStyle" : 0,
     "hamlUseCDATA" : 0,
-    "hamlAutoOutputPathStyle" : 0,
+    "hamlAutoOutputPathStyle" : 3,
     "sassDebugStyle" : 0,
     "hamlOutputStyle" : 0,
     "stylusAutoOutputPathRelativePath" : "..\/css",
     "jsCheckerIndent" : 4,
     "kitAutoOutputPathRelativePath" : "",
     "lessAutoOutputPathReplace2" : "css",
-    "jadeAutoOutputPathReplace2" : "",
+    "jadeAutoOutputPathReplace2" : "Demo",
     "shouldRunBless" : 0,
     "stylusAutoOutputPathStyle" : 3,
     "coffeeCheckOutputStyle" : 0,
     "slimOutputStyle" : 1,
     "javascriptSyntaxCheckerStyle" : 1,
     "sassAutoOutputPathReplace1" : "sass",
-    "slimAutoOutputPathReplace1" : "",
+    "slimAutoOutputPathReplace1" : "Templates",
     "sassOutputStyle" : 0,
     "coffeeAutoOutputPathRelativePath" : "",
     "slimCompileOnly" : 0,
@@ -380,7 +308,7 @@
     "uglifyIndent" : 4,
     "jadeAutoOutputPathRelativePath" : "",
     "hamlUseUnixNewlines" : 0,
-    "hamlAutoOutputPathReplace1" : "",
+    "hamlAutoOutputPathReplace1" : "Templates",
     "javascriptAutoOutputPathReplace1" : "",
     "stylusOutputStyle" : 0,
     "javascriptAutoOutputPathReplace2" : "",
@@ -477,27 +405,27 @@
     "uglifyFlags" : {
       "no-mangle-functions" : 0,
       "no-mangle" : 0,
-      "no-copyright" : 0,
+      "no-copyright" : 1,
       "no-dead-code" : 0,
       "inline-script" : 0,
       "ascii" : 0,
       "unsafe" : 0,
       "mangle-toplevel" : 0,
       "no-seqs" : 1,
-      "beautify" : 1,
+      "beautify" : 0,
       "lift-vars" : 0,
       "consolidate-primitive-values" : 0,
       "no-squeeze" : 0
     },
     "sassAutoOutputPathReplace2" : "css",
-    "slimAutoOutputPathReplace2" : "",
+    "slimAutoOutputPathReplace2" : "Demo",
     "jadeCompileDebug" : 1,
     "slimRailsCompatible" : 0,
-    "kitAutoOutputPathReplace2" : "Layouts",
+    "kitAutoOutputPathReplace2" : "Demo",
     "lessRelativeURLS" : 0,
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
-    "slimAutoOutputPathStyle" : 0
+    "slimAutoOutputPathStyle" : 3
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,

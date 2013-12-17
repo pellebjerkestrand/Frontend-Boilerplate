@@ -1,8 +1,3 @@
-@import '../Support/variables';
-@import '../Support/mixins';
-
-@include on-mq-support($alpha);
-
 * {
   box-sizing: border-box;
 }
@@ -13,7 +8,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   min-width: $alpha_min;
   padding: 0;
 }

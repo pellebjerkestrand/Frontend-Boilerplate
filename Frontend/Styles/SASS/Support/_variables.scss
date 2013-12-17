@@ -6,14 +6,14 @@ $epsilon: 'epsilon';
 $zeta: 'zeta';
 $eta: 'eta';
 
-$alpha_min: 20em;
+$alpha_min: 20em; // NOTE: 320px
 $beta_start: 40em;
 $gamma_start: 60em;
 $delta_start: 80em;
 $epsilon_start: 100em;
 $zeta_start: 120em;
 $eta_start: 140em;
-$eta_max: 160em;
+$eta_max: 160em; // NOTE: 2560px
 
 $font_default: 'Helvetica', sans-serif;
 $font_title: 'Helvetica', sans-serif;

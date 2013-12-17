@@ -1,58 +1,53 @@
+/* global chai:false, app:false, describe:false, beforeEach:false, it:false, afterEach:false */
 var assert = chai.assert;
 
 describe('The behaviors module', function(){
-    var elementId = 'el';
+    var elementId = 'el',
+        elementSelector = '#' + elementId,
+        element = document.createElement('div');
 
     beforeEach(function(){
-        var el = document.createElement('div');
-        el.id = elementId;
-        document.body.appendChild(el);
+        element.id = elementId;
+        document.body.appendChild(element);
     });
 
     it('should activate element', function(){
-        var el = document.getElementById(elementId);
-        app.behaviors.activate(el);
+        app.behaviors.activate(elementSelector);
 
-        assert.ok(el.classList.contains('active'));
+        assert.ok(element.classList.contains('active'));
     });
 
     it('should deactivate element', function(){
-        var el = document.getElementById(elementId);
-        app.behaviors.deactivate(el);
+        app.behaviors.deactivate(elementSelector);
 
-        assert.ok(el.classList.contains('inactive'));
+        assert.ok(element.classList.contains('inactive'));
     });
 
     it('should show element', function(){
-        var el = document.getElementById(elementId);
-        app.behaviors.show(el);
+        app.behaviors.show(elementSelector);
 
-        assert.ok(el.classList.contains('shown'));
+        assert.ok(element.classList.contains('shown'));
     });
 
     it('should hide element', function(){
-        var el = document.getElementById(elementId);
-        app.behaviors.hide(el);
+        app.behaviors.hide(elementSelector);
 
-        assert.ok(el.classList.contains('hidden'));
+        assert.ok(element.classList.contains('hidden'));
     });
 
     it('should toggle element', function(){
-        var el = document.getElementById(elementId);
+        app.behaviors.toggle(elementSelector);
 
-        app.behaviors.toggle(el);
+        assert.ok(element.classList.contains('shown'));
+        assert.notOk(element.classList.contains('hidden'));
 
-        assert.ok(el.classList.contains('shown'));
-        assert.notOk(el.classList.contains('hidden'));
+        app.behaviors.toggle(elementSelector);
 
-        app.behaviors.toggle(el);
-
-        assert.ok(el.classList.contains('hidden'));
-        assert.notOk(el.classList.contains('shown'));
+        assert.ok(element.classList.contains('hidden'));
+        assert.notOk(element.classList.contains('shown'));
     });
 
     afterEach(function(){
-        var el = document.getElementById(elementId);
-        el.parentNode.removeChild(el);
+        element.parentNode.removeChild(element);
     });
 });

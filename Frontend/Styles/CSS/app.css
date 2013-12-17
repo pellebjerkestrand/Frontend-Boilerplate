@@ -169,12 +169,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html {
-  font-family: "alpha"; }
-
-body {
-  font-family: "Helvetica", sans-serif; }
-
 * {
   box-sizing: border-box; }
 
@@ -183,7 +177,7 @@ html {
   padding: 0; }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   min-width: 20em;
   padding: 0; }
 
@@ -203,37 +197,43 @@ figure img {
   display: block;
   width: 100%; }
 
-@media screen and (min-width: 40em) {
+html {
+  font-family: "alpha"; }
+
+body {
+  font-family: "Helvetica", sans-serif; }
+
+@media (min-width: 40em) {
   html {
     font-family: "beta"; }
 
   body {
     font-family: "Helvetica", sans-serif; } }
-@media screen and (min-width: 60em) {
+@media (min-width: 60em) {
   html {
     font-family: "gamma"; }
 
   body {
     font-family: "Helvetica", sans-serif; } }
-@media screen and (min-width: 80em) {
+@media (min-width: 80em) {
   html {
     font-family: "delta"; }
 
   body {
     font-family: "Helvetica", sans-serif; } }
-@media screen and (min-width: 100em) {
+@media (min-width: 100em) {
   html {
     font-family: "epsilon"; }
 
   body {
     font-family: "Helvetica", sans-serif; } }
-@media screen and (min-width: 120em) {
+@media (min-width: 120em) {
   html {
     font-family: "zeta"; }
 
   body {
     font-family: "Helvetica", sans-serif; } }
-@media screen and (min-width: 140em) {
+@media (min-width: 140em) {
   html {
     font-family: "eta"; }
 

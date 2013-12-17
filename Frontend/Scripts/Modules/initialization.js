@@ -1,11 +1,10 @@
-/* Initialization meta module. Pelle Bjerkestrand. WTFPL. */
-/* Uses addEventListener */
-(function(window, document){
+(function(global){
+    /* Initialization meta module. Pelle Bjerkestrand. WTFPL. */
     'use strict';
 
-    var app = window.app || {};
+    var app = global.app || {};
 
-    app.init = function(){
+    function init(){
         for (var key in app) {
             if (app.hasOwnProperty(key)) {
                 var module = app[key];
@@ -14,9 +13,13 @@
                 }
             }
         }
-    };
+    }
 
-    document.addEventListener("DOMContentLoaded", function() {
+    app.init = init;
+
+    global.document.addEventListener("DOMContentLoaded", function() {
         app.init();
     });
-})(window, document);
+
+    global.app = app;
+})(this);

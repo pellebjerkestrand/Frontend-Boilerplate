@@ -1,9 +1,9 @@
-/* Common behaviors module. Pelle Bjerkestrand. WTFPL. */
-/* Uses querySelectorAll, classList, addEventListener */
-(function(window, document){
+(function(global){
+    /* Common behaviors module. Pelle Bjerkestrand. WTFPL. */
     'use strict';
 
-    var app = window.app || {},
+    var app = global.app || {},
+        document = global.document,
         states = {
             active: 'active',
             inactive: 'inactive',
@@ -31,38 +31,66 @@
         }
     }
 
-    function activate(element){
-        element.classList.remove(states.inactive);
-        element.classList.add(states.active);
-        return element;
-    }
-
-    function deactivate(element){
-        element.classList.remove(states.active);
-        element.classList.add(states.inactive);
-        return element;
-    }
-
-    function show(element){
-        element.classList.remove(states.hidden);
-        element.classList.add(states.shown);
-        return element;
-    }
-
-    function hide(element){
-        element.classList.remove(states.shown);
-        element.classList.add(states.hidden);
-        return element;
-    }
-
-    function toggle(element){
-        if(element.classList.contains(states.shown)){
-            hide(element);
-        } else {
-            show(element);
+    function addClass(nodeList, htmlClass){
+        for(var i = 0; i < nodeList.length; i++){
+            addClassToElement(nodeList[i], htmlClass);
         }
+    }
 
-        return element;
+    function addClassToElement(element, htmlClass){
+        element.classList.add(htmlClass);
+    }
+
+    function removeClass(nodeList, htmlClass){
+        for(var i = 0; i < nodeList.length; i++){
+            removeClassFromElement(nodeList[i], htmlClass);
+        }
+    }
+
+    function removeClassFromElement(element, htmlClass){
+        element.classList.remove(htmlClass);
+    }
+
+    function activate(selector){
+        removeClass(document.querySelectorAll(selector), states.inactive);
+        addClass(document.querySelectorAll(selector), states.active);
+    }
+
+    function deactivate(selector){
+        removeClass(document.querySelectorAll(selector), states.active);
+        addClass(document.querySelectorAll(selector), states.inactive);
+    }
+
+    function show(selector){
+        removeClass(document.querySelectorAll(selector), states.hidden);
+        addClass(document.querySelectorAll(selector), states.shown);
+    }
+
+    function showElement(element){
+        removeClassFromElement(element, states.hidden);
+        addClassToElement(element, states.shown);
+    }
+
+    function hide(selector){
+        removeClass(document.querySelectorAll(selector), states.shown);
+        addClass(document.querySelectorAll(selector), states.hidden);
+    }
+
+    function hideElement(element){
+        removeClassFromElement(element, states.shown);
+        addClassToElement(element, states.hidden);
+    }
+
+    function toggle(selector){
+        var elements = document.querySelectorAll(selector);
+
+        for(var i = 0; i < elements.length; i++){
+            if(elements[i].classList.contains(states.shown)){
+                hideElement(elements[i]);
+            } else {
+                showElement(elements[i]);
+            }
+        }
     }
 
     function init(){
@@ -83,32 +111,20 @@
         });
 
         addEventListenerToNodeList('click', document.querySelectorAll(selectors.toggle), function(){
-            hide(this.dataset[data.toggle]);
+            toggle(this.dataset[data.toggle]);
         });
     }
 
     /* NOTE: External API */
     app.behaviors = {
-        activate: function(element){
-            return activate(element);
-        },
-        deactivate: function(element){
-            return deactivate(element);
-        },
-        show: function(element){
-            return show(element);
-        },
-        hide: function(element){
-            return hide(element);
-        },
-        toggle: function(element){
-            return toggle(element);
-        },
-        init: function(){
-            init();
-        }
+        activate: activate,
+        deactivate: deactivate,
+        show: show,
+        hide: hide,
+        toggle: toggle,
+        init: init
     };
 
     /* NOTE: Export app with module so it can be initialized */
-    window.app = app;
-})(window, document);
+    global.app = app;
+})(this);

@@ -1,0 +1,28 @@
+@import '../Support/variables';
+@import '../Support/mixins';
+
+@include on-mq-support($alpha);
+
+@include breakpoint($beta){
+  @include on-mq-support($beta);
+}
+
+@include breakpoint($gamma){
+  @include on-mq-support($gamma);
+}
+
+@include breakpoint($delta){
+  @include on-mq-support($delta);
+}
+
+@include breakpoint($epsilon){
+  @include on-mq-support($epsilon);
+}
+
+@include breakpoint($zeta){
+  @include on-mq-support($zeta);
+}
+
+@include breakpoint($eta){
+  @include on-mq-support($eta);
+}

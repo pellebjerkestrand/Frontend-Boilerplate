@@ -1,9 +1,8 @@
-/* Indicate JS enabled module. Pelle Bjerkestrand. WTFPL. */
-/* Uses classList */
-(function(window, document){
+(function(global){
+    /* Indicate JS enabled module. Pelle Bjerkestrand. WTFPL. */
     'use strict';
 
-    var app = window.app || {},
+    var app = global.app || {},
         states = {
             no_js: 'no-js',
             js: 'js'
@@ -12,20 +11,17 @@
     function indicate(element){
         element.classList.remove(states.no_js);
         element.classList.add(states.js);
-        return element;
     }
 
     function init(){
-        indicate(document.body);
+        indicate(global.document.body);
     }
 
     /* NOTE: External API */
     app.indicate = {
-        init: function(){
-            init();
-        }
+        init: init
     };
 
     /* NOTE: Export app with module so it can be initialized */
-    window.app = app;
-})(window, document);
+    global.app = app;
+})(this);
