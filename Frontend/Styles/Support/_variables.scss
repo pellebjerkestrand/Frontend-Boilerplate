@@ -6,18 +6,32 @@ $epsilon: 'epsilon';
 $zeta: 'zeta';
 $eta: 'eta';
 
-$alpha_min: 20em; // NOTE: 320px
+$alpha_min: 20em; // NOTE: 320px, the width of an iPhone
 $beta_start: 40em;
 $gamma_start: 60em;
 $delta_start: 80em;
 $epsilon_start: 100em;
 $zeta_start: 120em;
 $eta_start: 140em;
-$eta_max: 160em; // NOTE: 2560px
+$eta_max: 160em; // NOTE: 2560px, the width of a normal dpi 27" display
 
 $font_default: 'Helvetica', sans-serif;
 $font_title: 'Helvetica', sans-serif;
 
+$font-neutral: 1em; //NOTE: Constant
+
+// NOTE: If you need more font sizes, yell at the designer
+$font-small: .8em;
+$font-medium: 1em;
+$font-large: 2em;
+$font-xl: 3em;
+$font-xxl: 5em;
+
+$line-height-snug: 1;
+$line-height-small: 1.2;
+$line-height-medium: 1.5;
+
+// NOTE: If you need more white space sizes, yell at the designer
 $margin-small: .5em;
 $margin-medium: 1em;
 $margin-large: 2em;

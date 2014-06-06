@@ -1,0 +1,10 @@
+$oldie: true;
+
+@import 'app';
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: $gamma_start;
+  max-width: $delta_start;
+}
