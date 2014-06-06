@@ -10,7 +10,7 @@
   }
 }
 
-@mixin clearfix {
+@mixin clearfix() {
   &:before,
   &:after {
     content: " ";
@@ -55,4 +55,71 @@
       }
     }
   }
+}
+
+@mixin hidden() {
+  display: block;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+@mixin visible($display: block) {
+  display: $display;
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+  width: auto;
+}
+
+@mixin tile-space($columns, $ratio, $initial: false){
+  $width: (100%/$columns);
+
+  @if ($initial) {
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding: 0 0 ($width * $ratio) 0;
+    position: relative;
+  }
+  @else {
+    padding-bottom: ($width * $ratio);
+  }
+
+  width: $width;
+}
+
+@mixin tile($margin: 0) {
+  bottom: $margin;
+  display: block;
+  height: auto;
+  left: $margin;
+  position: absolute;
+  right: $margin;
+  top: $margin;
+  width: auto;
+}
+
+@mixin grid($columns: 2, $initial: false, $tile-margin: 0, $ratio: (1/1)){
+  @if ($initial) {
+    @include clearfix();
+    display: block;
+    list-style-type: none;
+    padding: 0;
+
+    &-tile-space {
+      @include tile-space($columns, $ratio, true);
+    }
+
+    &-tile {
+      @include tile($tile-margin);
+    }
+  }
+  @else {
+    @include tile-space($columns, $ratio);
+  }
+
+  margin: -($tile-margin/$columns);
 }

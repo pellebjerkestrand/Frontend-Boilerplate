@@ -1,3 +1,3 @@
-// @codekit-prepend Modules/indicate.javascript.js
-// @codekit-prepend Modules/initialization.js
-// @codekit-prepend Modules/behaviors.js
+// @codekit-append "Modules/indicate.javascript.js"
+// @codekit-append "Modules/initialization.js"
+// @codekit-append "Modules/behaviors.js"
