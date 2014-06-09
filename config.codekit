@@ -2,60 +2,71 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17018",
 "files": {
-	"\/Frontend\/apple-touch-icon-120x120.png": {
+	"\/apple-touch-icon-120x120.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18773,
-		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-120x120.png",
-		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-120x120.png",
+		"initialSize": 16413,
+		"inputAbbreviatedPath": "\/apple-touch-icon-120x120.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-120x120.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/Frontend\/apple-touch-icon-152x152.png": {
+	"\/apple-touch-icon-152x152.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27412,
-		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-152x152.png",
-		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-152x152.png",
+		"initialSize": 23182,
+		"inputAbbreviatedPath": "\/apple-touch-icon-152x152.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-152x152.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/Frontend\/apple-touch-icon-57x57.png": {
+	"\/apple-touch-icon-57x57.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7670,
-		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-57x57.png",
-		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-57x57.png",
+		"initialSize": 7317,
+		"inputAbbreviatedPath": "\/apple-touch-icon-57x57.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-57x57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/Frontend\/apple-touch-icon-76x76.png": {
+	"\/apple-touch-icon-76x76.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10268,
-		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-76x76.png",
-		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-76x76.png",
+		"initialSize": 9437,
+		"inputAbbreviatedPath": "\/apple-touch-icon-76x76.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-76x76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/Frontend\/apple-touch-icon.png": {
+	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7670,
-		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon.png",
+		"initialSize": 7317,
+		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7317,
+		"inputAbbreviatedPath": "\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/Frontend\/Demo\/start.html": {
 		"fileType": 8192,
@@ -156,6 +167,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/modernizr.custom.min.js",
 		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/min\/modernizr.custom.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Frontend\/Scripts\/Vendor\/pubsub.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/pubsub.js",
+		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/min\/pubsub-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
