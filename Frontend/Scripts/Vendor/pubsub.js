@@ -17,7 +17,8 @@
     'use strict';
 
     // CommonJS
-    if (typeof exports === 'object' && module){
+    // NOTE: https://github.com/mroderick/PubSubJS/pull/49
+    if (typeof exports === 'object' && typeof module !== "undefined"){
         module.exports = factory();
 
         // AMD

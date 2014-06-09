@@ -91,15 +91,18 @@
   width: $width;
 }
 
-@mixin tile($margin: 0) {
+@mixin tile($margin: 0, $initial: false) {
+  @if ($initial){
+    display: block;
+    height: auto;
+    position: absolute;
+    width: auto;
+  }
+
   bottom: $margin;
-  display: block;
-  height: auto;
   left: $margin;
-  position: absolute;
   right: $margin;
   top: $margin;
-  width: auto;
 }
 
 @mixin grid($columns: 2, $initial: false, $tile-margin: 0, $ratio: (1/1)){
@@ -114,7 +117,7 @@
     }
 
     &-tile {
-      @include tile($tile-margin);
+      @include tile($tile-margin, true);
     }
   }
   @else {

@@ -150,6 +150,17 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Frontend\/Scripts\/Modules\/responsive.images.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Modules\/responsive.images.js",
+		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Modules\/min\/responsive.images-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/Frontend\/Scripts\/Vendor\/loglevel.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -167,6 +178,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/modernizr.custom.min.js",
 		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/min\/modernizr.custom.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Frontend\/Scripts\/Vendor\/onmediaquery.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/onmediaquery.js",
+		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/min\/onmediaquery-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
