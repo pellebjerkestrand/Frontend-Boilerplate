@@ -13,7 +13,49 @@
     <!-- NOTE: Apple https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="App/site"> <!-- NOTE: Undocumented, max 12 characters-->
     <meta name="format-detection" content="telephone=no">
+    <!-- NOTE: For touch icons there is no need for HTML, see http://mathiasbynens.be/notes/touch-icons -->
+    <!-- NOTE: Apple startup images still have to be defined in HTML -->
+    <!-- iOS 6 & 7 iPad (retina, portrait) -->
+    <link href="/apple-touch-startup-image-1536x2008.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 6 & 7 iPad (retina, landscape) -->
+    <link href="/apple-touch-startup-image-1496x2048.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 6 iPad (portrait) -->
+    <link href="/apple-touch-startup-image-768x1004.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 6 iPad (landscape) -->
+    <link href="/apple-touch-startup-image-748x1024.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 6 & 7 iPhone 5 -->
+    <link href="/apple-touch-startup-image-640x1096.png"
+          media="(device-width: 320px) and (device-height: 568px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 6 & 7 iPhone (retina) -->
+    <link href="/apple-touch-startup-image-640x920.png"
+          media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 6 iPhone -->
+    <link href="/apple-touch-startup-image-320x460.png"
+          media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
     <!-- NOTE: OpenGraph http://ogp.me -->
     <meta property="og:title" content="App">
     <meta property="og:type" content="website">
@@ -32,6 +74,7 @@
     <link rel="stylesheet" href="../Styles/app.css" />
     <!--<![endif]-->
     <!-- NOTE: The JavaScript is in _html-end.kit -->
+    <script src="../Scripts/Vendor/modernizr.custom.min.js"></script>
 </head>
 <body class="macpherson">
 <!--[if lte IE 8]>

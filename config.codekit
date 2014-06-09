@@ -2,6 +2,61 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17018",
 "files": {
+	"\/Frontend\/apple-touch-icon-120x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18773,
+		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-120x120.png",
+		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-120x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Frontend\/apple-touch-icon-152x152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27412,
+		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-152x152.png",
+		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-152x152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Frontend\/apple-touch-icon-57x57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7670,
+		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-57x57.png",
+		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-57x57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Frontend\/apple-touch-icon-76x76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10268,
+		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon-76x76.png",
+		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon-76x76.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/Frontend\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7670,
+		"inputAbbreviatedPath": "\/Frontend\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/Frontend\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/Frontend\/Demo\/start.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -84,15 +139,26 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Frontend\/Scripts\/Polyfills\/addEventListener.js": {
+	"\/Frontend\/Scripts\/Vendor\/loglevel.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Polyfills\/addEventListener.js",
-		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Polyfills\/min\/addEventListener-ck.js",
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/loglevel.js",
+		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/min\/loglevel-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/Frontend\/Scripts\/Vendor\/modernizr.custom.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/modernizr.custom.min.js",
+		"outputAbbreviatedPath": "\/Frontend\/Scripts\/Vendor\/min\/modernizr.custom.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/Frontend\/Styles\/app.css": {
