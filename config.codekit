@@ -6,67 +6,144 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16413,
+		"initialSize": 317,
 		"inputAbbreviatedPath": "\/apple-touch-icon-120x120.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-120x120.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-152x152.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23182,
+		"initialSize": 332,
 		"inputAbbreviatedPath": "\/apple-touch-icon-152x152.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-152x152.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-57x57.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7317,
+		"initialSize": 193,
 		"inputAbbreviatedPath": "\/apple-touch-icon-57x57.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-57x57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-76x76.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9437,
+		"initialSize": 250,
 		"inputAbbreviatedPath": "\/apple-touch-icon-76x76.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-76x76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7317,
+		"initialSize": 193,
 		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7317,
+		"initialSize": 193,
 		"inputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/apple-touch-startup-image-1496x2048.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6315,
+		"inputAbbreviatedPath": "\/apple-touch-startup-image-1496x2048.png",
+		"outputAbbreviatedPath": "\/apple-touch-startup-image-1496x2048.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/apple-touch-startup-image-1536x2008.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6663,
+		"inputAbbreviatedPath": "\/apple-touch-startup-image-1536x2008.png",
+		"outputAbbreviatedPath": "\/apple-touch-startup-image-1536x2008.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/apple-touch-startup-image-320x460.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 959,
+		"inputAbbreviatedPath": "\/apple-touch-startup-image-320x460.png",
+		"outputAbbreviatedPath": "\/apple-touch-startup-image-320x460.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/apple-touch-startup-image-640x1096.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2087,
+		"inputAbbreviatedPath": "\/apple-touch-startup-image-640x1096.png",
+		"outputAbbreviatedPath": "\/apple-touch-startup-image-640x1096.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/apple-touch-startup-image-640x920.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2181,
+		"inputAbbreviatedPath": "\/apple-touch-startup-image-640x920.png",
+		"outputAbbreviatedPath": "\/apple-touch-startup-image-640x920.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/apple-touch-startup-image-748x1024.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2408,
+		"inputAbbreviatedPath": "\/apple-touch-startup-image-748x1024.png",
+		"outputAbbreviatedPath": "\/apple-touch-startup-image-748x1024.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/apple-touch-startup-image-768x1004.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2385,
+		"inputAbbreviatedPath": "\/apple-touch-startup-image-768x1004.png",
+		"outputAbbreviatedPath": "\/apple-touch-startup-image-768x1004.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/Frontend\/Demo\/responsive-images.html": {
 		"fileType": 8192,
