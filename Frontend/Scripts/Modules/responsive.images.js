@@ -1,4 +1,4 @@
-(function(global, MQ){
+(function(global, MQ, log){
     /* Responsive images module. Pelle Bjerkestrand. WTFPL. */
     'use strict';
 
@@ -31,7 +31,15 @@
     }
 
     function setImageToContext(element, context){
-        var image = element.dataset.images[context];
+        try {
+            var images = JSON.parse(element.dataset.images);
+        } catch (e) {
+            log.error('The element\'s images dataset is not valid JSON');
+            log.debug(element);
+            return;
+        }
+
+        var image = images[context];
 
         if(image){
             element.classList.add(states.loading);
@@ -41,7 +49,6 @@
 
     function setImagesToContext(context){
         var images = global.document.body.querySelectorAll(selectors.images);
-
         for(var i = 0; i < images.length; i++){
             attachLoadHandler(images[i]);
             setImageToContext(images[i], context);
@@ -65,4 +72,4 @@
     };
 
     global.app = app;
-})(this, MQ);
+})(this, MQ, log);

@@ -68,6 +68,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Frontend\/Demo\/responsive-images.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Demo\/responsive-images.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Frontend\/Demo\/start.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -353,11 +362,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Frontend\/Templates\/start.kit": {
+	"\/Frontend\/Templates\/Pages\/responsive-images.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Frontend\/Templates\/start.kit",
+		"inputAbbreviatedPath": "\/Frontend\/Templates\/Pages\/responsive-images.kit",
+		"outputAbbreviatedPath": "\/Frontend\/Demo\/responsive-images.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Frontend\/Templates\/Pages\/start.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Templates\/Pages\/start.kit",
 		"outputAbbreviatedPath": "\/Frontend\/Demo\/start.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
