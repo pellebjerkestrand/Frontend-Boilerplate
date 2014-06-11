@@ -56,13 +56,28 @@
           media="(device-width: 320px) and (device-height: 480px)
                  and (-webkit-device-pixel-ratio: 1)"
           rel="apple-touch-startup-image">
-    <!-- NOTE: OpenGraph http://ogp.me -->
+    <!-- NOTE: OpenGraph http://ogp.me (Facebook, LinkedIn and others) -->
     <meta property="og:title" content="App">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://app.com">
-    <meta property="og:image" content="app.png">
+    <meta property="og:image" content="app.png"> <!-- NOTE: It's possible to have multiple og:images -->
     <meta property="og:description" content="An awesome app/site">
     <meta property="og:locale" content="nb_NO">
+    <!-- NOTE: OpenGraph, no vertical http://ogp.me/#no_vertical -->
+    <meta property="article:author" content="URL to Author object">
+    <meta property="article:section" content="Section of article">
+    <meta property="article:tag" content="Keyword">
+    <!-- NOTE: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="URL of this content">
+    <meta name="twitter:title" content="Name of article">
+    <meta name="twitter:description" content="Description of content">
+    <meta name="twitter:image" content="URL to an image">
+    <!-- NOTE: Twitter, optional -->
+    <meta name="twitter:site" content="@username">
+    <meta name="twitter:site:id" content="Twitter ID">
+    <meta name="twitter:creator" content="@username">
+    <meta name="twitter:creator:id"	content="Twitter ID">
     <!-- NOTE: Google https://support.google.com/webmasters/answer/79812?hl=en -->
     <!-- NOTE: Custom metadata can look like this. The ID and data attributes make it possible to get the values with Google Tag Manager without custom JS -->
     <meta itemprop="metadata" content="this could be json of the custom metadata" id="app-metadata" data-meta-foo="bar" data-meta-baz="qux">
