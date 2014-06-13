@@ -145,6 +145,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/Frontend\/Demo\/grids.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Demo\/grids.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Frontend\/Demo\/responsive-images.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -348,6 +357,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/Frontend\/Styles\/Modules\/_grids.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Styles\/Modules\/_grids.scss",
+		"outputAbbreviatedPath": "\/Frontend\/Styles\/Modules\/_grids.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/Frontend\/Styles\/oldie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -436,6 +461,24 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Frontend\/Templates\/Framework\/_html-end.kit",
 		"outputAbbreviatedPath": "\/Frontend\/Demo\/_html-end.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Frontend\/Templates\/Pages\/grids.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Templates\/Pages\/grids.kit",
+		"outputAbbreviatedPath": "\/Frontend\/Demo\/grids.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Frontend\/Templates\/Pages\/pubsub.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Frontend\/Templates\/Pages\/pubsub.kit",
+		"outputAbbreviatedPath": "\/Frontend\/Demo\/pubsub.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

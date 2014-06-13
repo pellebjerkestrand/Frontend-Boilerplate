@@ -16,6 +16,15 @@ $zeta_start: 120em;
 $eta_start: 140em;
 $eta_max: 160em; // NOTE: 2560px, the width of a normal dpi 27" display
 
+$context_map: (
+  $beta: $beta_start,
+  $gamma: $gamma_start,
+  $delta: $delta_start,
+  $epsilon: $epsilon_start,
+  $zeta: $zeta_start,
+  $eta: $eta_start
+);
+
 $font_default: 'Helvetica', sans-serif;
 $font_title: 'Helvetica', sans-serif;
 

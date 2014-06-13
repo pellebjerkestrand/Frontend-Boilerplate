@@ -1,0 +1,42 @@
+@import '../Support/mixins';
+
+.grid {
+  $columns: 2;
+  @include grid($columns, true);
+
+  @each $context, $temp in $context_map {
+    $columns: $columns + 1;
+    @include breakpoint($context){
+      @include grid($columns);
+    }
+  }
+}
+
+.grid-wide {
+  $columns: 2;
+  @include grid($columns: $columns, $initial: true, $ratio: (1/2));
+
+  @each $context, $temp in $context_map {
+    $columns: $columns + 1;
+    @include breakpoint($context){
+      @include grid($columns: $columns, $ratio: (1/2));
+    }
+  }
+}
+
+.tile-space {
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}){
+      background-color: rgb(random(255),random(255),random(255));
+    }
+  }
+}
+
+.tile {
+  background-color: rgb(random(255),random(255),random(255));
+  opacity: 0;
+
+  &:hover {
+    opacity: 1;
+  }
+}

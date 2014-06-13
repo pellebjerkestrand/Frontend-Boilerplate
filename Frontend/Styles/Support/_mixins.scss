@@ -22,13 +22,13 @@
   }
 }
 
-@mixin breakpoint($point){
+@mixin breakpoint($context){
   $start: false !default;
 
-  @if ($point == $beta){
+  @if ($context == $beta){
     $start: $beta_start;
   }
-  @else if ($point == $gamma){
+  @else if ($context == $gamma){
     $start: $gamma_start;
   }
 
@@ -36,16 +36,16 @@
     @content;
   }
   @else {
-    @if ($point == $delta){
+    @if ($context == $delta){
       $start: $delta_start;
     }
-    @else if ($point == $epsilon){
+    @else if ($context == $epsilon){
       $start: $epsilon_start;
     }
-    @else if ($point == $zeta){
+    @else if ($context == $zeta){
       $start: $zeta_start;
     }
-    @else if ($point == $eta){
+    @else if ($context == $eta){
       $start: $eta_start;
     }
 
@@ -111,18 +111,17 @@
     display: block;
     list-style-type: none;
     padding: 0;
-
-    &-tile-space {
-      @include tile-space($columns, $ratio, true);
-    }
-
-    &-tile {
-      @include tile($tile-margin, true);
-    }
-  }
-  @else {
-    @include tile-space($columns, $ratio);
   }
 
-  margin: -($tile-margin/$columns);
+  @if ($tile-margin != 0){
+    margin: -($tile-margin/$columns);
+  }
+
+  &-tile-space {
+    @include tile-space($columns, $ratio, $initial);
+  }
+
+  &-tile {
+    @include tile($tile-margin, $initial);
+  }
 }
