@@ -1,5 +1,5 @@
-<!-- @include ../Framework/html-begin -->
-
+{% extends '../Framework/layout.html' %}
+{% block content %}
 <h1>Inter Module Communication</h1>
 <p>Check out the inline script tags to see what's going on.</p>
 <h2>Pub</h2>
@@ -47,5 +47,4 @@
         global.app = app;
     })(this);
 </script>
-
-<!-- @include ../Framework/html-end -->
+{% endblock %}

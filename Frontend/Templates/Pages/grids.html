@@ -1,0 +1,25 @@
+{% extends '../Framework/layout.html' %}
+{% block content %}
+{% set times = [1,2,3,4,5,6,7,8,9] %}
+<h1>Grid</h1>
+<ul class="tiles grid">
+    {% for num in times %}
+    <li class="tile-space grid-tile-space">
+        <a class="tile grid-tile" href="#">
+
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+<h1>Grid, Ratio 50%</h1>
+<ul class="tiles grid-wide">
+    {% for num in times %}
+    <li class="tile-space grid-wide-tile-space">
+        <a class="tile grid-wide-tile" href="#">
+
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

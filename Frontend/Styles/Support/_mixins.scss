@@ -32,8 +32,10 @@
     $start: $gamma_start;
   }
 
-  @if (variable-exists(oldie) and $start){
-    @content;
+  @if (variable-exists(oldie)){
+    @if ($start){
+      @content;
+    }
   }
   @else {
     @if ($context == $delta){
